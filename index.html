@@ -52,38 +52,13 @@
 
 </head>
 <body id="primary-font">
-    <header id="hero" class=" lg:max-w-[1440px] mx-auto">
+    <header id="hero" class=" lg:max-w-[1440px] mx-auto py-4">
         <section  class="max-w-[1170px] mx-auto">
             <nav>
                 <div class="navbar">
-                    <div class="navbar-start">
-                      <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4 6h16M4 12h8m-8 6h16" />
-                          </svg>
-                        </div>
-                        <ul
-                          tabindex="0"
-                          class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                          <li><a>Home</a></li>
-                          <li><a>Services</a></li>
-                          <li><a>Portfolio</a></li>
-                          <li><a>Blogs</a></li>
-                          <li><a>Contact Us</a></li>
-                        </ul>
-                      </div>
+                    <div class="navbar-start ml-4 lg:ml-0">
                       <i class="-rotate-45 bg-bc rounded-full p-2 fa-solid fa-arrow-right"></i>
-                      <a class="btn btn-ghost text-[32px] font-extrabold leading-10 "> Rinterio</a>
+                      <a class="ml-2 hover:bg-white btn-ghost text-[32px] font-extrabold leading-10 "> Rinterio</a>
                     </div>
                     <div class="navbar-center hidden lg:flex  text-[#737373] text-base font-normal leading-6">
                       <ul class="menu menu-horizontal px-1">
@@ -94,14 +69,41 @@
                         <li><a>Contact Us</a></li>
                       </ul>
                     </div>
-    
-                    <div class="navbar-end">
-                        <div class="">
-                            <i class=" bg-width rounded-full p-2 fa-solid fa-magnifying-glass" style="color: #050505;"></i>
-                            <i class="bg-width rounded-full p-2 mx-3 fa-solid fa-cart-plus"></i>
-                        </div>
+                    
+                    <div class="dropdown dropdown-end navbar-end">
+                      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden flex justify-end text-base font-medium ">
+                      <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                            
+                        </svg>
+                      </div>
+                      <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content rounded-box z-[1] mt-0 w-25 p-2 shadow bg-bc text-end">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                      </ul>
+                    </div>
 
-                      <a class="btn bg-bc text-black font-extrabold text-xl">Book Consult<i class="-rotate-45 bg-black text-orange-50 rounded-full p-2 fa-solid fa-arrow-right bg-"></i></a>
+                    <div class="navbar-end hidden text-center lg:flex">
+                        
+                            <a href="#"><i class=" bg-width rounded-full p-2 fa-solid fa-magnifying-glass" style="color: #050505;"></i></a>
+                            <a href=""> <i class="bg-width rounded-full p-2 mx-3 fa-solid fa-cart-plus"></i></a>
+                        
+
+                      <button class=" btn bg-bc text-black font-extrabold text-xl">Book Consult<i class="-rotate-45 bg-black text-orange-50 rounded-full p-2 fa-solid fa-arrow-right ml-2"></i></button>
                     </div>
                   </div>
             </nav>
@@ -147,7 +149,9 @@
                     <!-- dox contant -->
                      <div class="">
                         <div class="flex gap-5  bg-white p-5 rounded-xl">
-                            <img src="./assets/commercial.png" alt="" srcset="">
+                            <div class=" lg:my-auto">
+                              <img src="./assets/commercial.png" alt="" srcset="">
+                            </div>
                             <div>
                             <h3 class=" text-xl text-[#494949] font-extrabold my-3">Commercial</h3>
                             
@@ -156,7 +160,9 @@
                         </div>
 
                         <div class="flex gap-5 bg-white p-5 rounded-xl my-5">
-                            <img src="./assets/residential.png" alt="" srcset="">
+                            <div class=" lg:my-auto">
+                              <img  class="" src="./assets/residential.png" alt="" srcset="">
+                            </div>
                            <div>
                             <h3 class=" text-xl text-[#494949] font-extrabold my-3">Residential</h3>
                             <p class=" text-base text-pp font-semibold leading-6"> The barn house captivates with its blend of rustic charm and modern.</p>
@@ -329,7 +335,7 @@
             <div class=" mx-w-[970px] lg:w-[970px] mx-auto lg:pt-24 p-4">
               <div class="text-center">
                 <div class="mb-4">
-                  <button class="  text-pp font-bold text-base rounded-2xl px-4 py-2 bg-[#ABEF5F33] "> <i class=" rounded-full  fa-solid fa-arrow-right"></i> Explore our Latest works</button>
+                  <button class="  text-pp font-bold text-base rounded-2xl px-4 py-2 bg-[#ABEF5F33] "> <i class=" rounded-full  fa-solid fa-arrow-right"></i> Let’s Connect</button>
               </div>
               <h1 class="text-4xl font-bold lg:leading-[55px] leading-10">Our Latest Portfolio</h1>
               <p class="py-4 lg:py-6 lg:max-w-[678px] mx-auto text-base font-medium text-pp text-center lg:leading-7 leading-5 lg:mb-4 mb-3">
@@ -362,8 +368,40 @@
             </div>
         </section>
     </main>
-    <footer>
-          
+
+
+    <footer class="mx-auto bg-[#1C1C1C] py-[100px]">
+      
+      <!-- footer div -->
+       <div class="mx-w-[970px] lg:w-[970px] mx-auto p-4">
+        <div class="text-center">
+        <h1 class="text-4xl font-bold lg:leading-[55px] leading-10 text-[#E9E9E9]">
+          <i class=" -rotate-45 text-orange-50  fa-solid fa-arrow-right bg-bc  rounded-full p-2 "></i>
+         Rinterio</h1>
+        <p class="py-4 lg:py-6 lg:max-w-[678px] mx-auto text-base font-medium text-pp text-center lg:leading-7 leading-5 lg:mb-4 mb-3">
+          The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        </div>
+         <!--secend div  -->
+           <div class="mx-w-[777px] mx-auto my-5 lg:mb-10">
+            
+              <nav class="flex lg:flex-row  flex-col  items-center lg:justify-evenly gap-10 text-slate-500 text-base font-medium">
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">Portfolio</a>
+                <a class="link link-hover">Blogs</a>
+                <a class="link link-hover">Contact Us</a>
+              </nav>
+            
+           </div>
+           <!-- div 3rd -->
+            <div class="mt-8">
+              <div class=" text-center justify-center mt-5 border-none shadow-none items-center">
+                <button class="btn bg-bc border-none shadow-none px-11 lg:px-6 rounded-2xl text-black font-extrabold text-xl"> Book Consult <i class="-rotate-45 bg-black text-orange-50 rounded-full p-2 fa-solid fa-arrow-right bg-"></i></button>
+              </div>
+            </div>
+       </div>
+
     </footer>
 </body>
 </html>
